@@ -32,6 +32,6 @@ My background in software engineering has honed my solid engineering skills. Bas
 - Natural Language Processing (NLP)
 - Artificial Intelligence for IT Operations (AIOps)
 
-You could also refer to the `projects` page for details. Additionally, I am now keen to explore in the fields of LLMs and AI4Sci.
+You could also refer to the [projects](https://huanmit.github.io/projects/) page for details. Additionally, I am now keen to explore in the fields of LLMs and AI4Sci.
 
 *I am currently looking for research opportunities for Summer 2024! Please feel free to contact me if you are interested.*
