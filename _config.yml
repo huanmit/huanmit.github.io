@@ -233,9 +233,10 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets"
+      path: "/"
     values:
-      sitemap: false
+      sitemap: true
+      permalink: /sitemap.xml
 
 sass:
   style: compressed
