@@ -11,8 +11,8 @@ profile:
   more_info: >
     <p>3333 Forbes Ave.</p>
     <p>Pittsburgh, PA 15213</p>
-    <br>
-    <a href="mailto:huanmi.tan@gmail.com"> huanmi [dot] tan [at] gmail [dot] com </a>
+    <p> </p>
+    <a href="mailto:huanmi.tan@gmail.com"> huanmi[dot]tan[at]gmail[dot]com </a>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
