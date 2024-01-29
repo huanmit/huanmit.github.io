@@ -64,7 +64,7 @@
       "courses": ["Machine Learning System", "Advanced NLP", "DevOps", "Design Pattern"]
     },
     {
-      "institution": "Tongji University, China",
+      "institution": "Tongji University, SSE",
       "location": "Shanghai, China",
       "url": "https://en.tongji.edu.cn/p/#/",
       "major": "Software Engineering",
@@ -78,8 +78,8 @@
 
   "awards": [
     {
-      "title": "Academic Excellence University Scholarship",
-      "date": "2021-2022 academic year",
+      "title": "Academic Excellence University Scholarship, 2021-2022 Academic Year",
+      "date": "Oct 2022",
       "awarder": "Tongji University"
     },
     {
@@ -97,8 +97,8 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     },
     {
-      "title": "Academic Excellence University Scholarship",
-      "date": "2020-2021 academic year",
+      "title": "Academic Excellence University Scholarship, 2020-2021 Academic Year",
+      "date": "Oct 2021",
       "awarder": "Tongji University"
     },
     {
@@ -109,8 +109,8 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     },
     {
-      "title": "Academic Excellence University Scholarship",
-      "date": "2019-2020 academic year",
+      "title": "Academic Excellence University Scholarship, 2019-2020 Academic Year",
+      "date": "Oct 2020",
       "awarder": "Tongji University"
     }
   ],
