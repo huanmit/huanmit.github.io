@@ -21,7 +21,7 @@
       }
     ]
   },
-  
+
   "Professional Experience": [
     {
       "name": "ByteDance Inc.",
@@ -53,13 +53,13 @@
 
   "education": [
     {
-      "institution": "Carnegie Mellon University, School of Computer Science",
+      "institution": "Carnegie Mellon University, SCS",
       "location": "Pittsburgh, PA",
       "url": "https://www.cmu.edu/",
       "major": "Software Engineering, Scalable System",
       "degreeType": "Master",
       "startDate": "2023-08",
-      "endDate": "Expected: 2024-12",
+      "endDate": "2024-12",
       "gpa": "3.89",
       "courses": ["Machine Learning System", "Advanced NLP", "DevOps", "Design Pattern"]
     },
@@ -79,9 +79,8 @@
   "awards": [
     {
       "title": "Academic Excellence University Scholarship",
-      "date": "2019-2020, 2020-2021 and 2021-2022 academic year",
-      "awarder": "Tongji University",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "date": "2021-2022 academic year",
+      "awarder": "Tongji University"
     },
     {
       "title": "Second Prize of Citi Cup (Fintech Innovation Application Competition)",
@@ -98,11 +97,21 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     },
     {
+      "title": "Academic Excellence University Scholarship",
+      "date": "2020-2021 academic year",
+      "awarder": "Tongji University"
+    },
+    {
       "title": "First Prize of East China Region in Mobile Application Innovation Competition of CCCC",
       "date": "June 2021",
       "awarder": "Computer Education Research Association of Chinese Universities, Zhejiang University, Apple (China)",
       "url": "http://www.appcontest.net/",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Academic Excellence University Scholarship",
+      "date": "2019-2020 academic year",
+      "awarder": "Tongji University"
     }
   ],
 
