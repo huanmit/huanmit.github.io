@@ -22,6 +22,31 @@
     ]
   },
 
+  "education": [
+    {
+      "institution": "Carnegie Mellon University, SCS",
+      "location": "Pittsburgh, PA",
+      "url": "https://www.cmu.edu/",
+      "major": "Software Engineering, Scalable System",
+      "degreeType": "Master",
+      "startDate": "2023-08",
+      "endDate": "2024-12",
+      "gpa": "3.89",
+      "courses": ["Machine Learning System", "Advanced NLP", "DevOps", "Design Pattern"]
+    },
+    {
+      "institution": "Tongji University, SSE",
+      "location": "Shanghai, China",
+      "url": "https://en.tongji.edu.cn/p/#/",
+      "major": "Software Engineering",
+      "degreeType": "Bachelor",
+      "startDate": "2019-09",
+      "endDate": "2023-07",
+      "gpa": "90",
+      "courses": ["Computer Architecture", "Discrete Math", "Database Principle", "Web Service & Microservices", "Distributed System", "Industrial Big Data & Cloud Computing"]
+    }
+  ],
+
   "work": [
     {
       "name": "ByteDance Inc.",
@@ -53,31 +78,6 @@
     }
   ],
 
-  "education": [
-    {
-      "institution": "Carnegie Mellon University, SCS",
-      "location": "Pittsburgh, PA",
-      "url": "https://www.cmu.edu/",
-      "major": "Software Engineering, Scalable System",
-      "degreeType": "Master",
-      "startDate": "2023-08",
-      "endDate": "2024-12",
-      "gpa": "3.89",
-      "courses": ["Machine Learning System", "Advanced NLP", "DevOps", "Design Pattern"]
-    },
-    {
-      "institution": "Tongji University, SSE",
-      "location": "Shanghai, China",
-      "url": "https://en.tongji.edu.cn/p/#/",
-      "major": "Software Engineering",
-      "degreeType": "Bachelor",
-      "startDate": "2019-09",
-      "endDate": "2023-07",
-      "gpa": "90",
-      "courses": ["Computer Architecture", "Discrete Math", "Database Principle", "Web Service & Microservices", "Distributed System", "Industrial Big Data & Cloud Computing"]
-    }
-  ],
-
   "awards": [
     {
       "title": "Academic Excellence University Scholarship, 2021-2022 Academic Year",
@@ -89,14 +89,14 @@
       "date": "May 2022",
       "awarder": "Citigroup Services and Technology (China) Ltd.",
       "url": "https://www.citigroup.com/china/csts/EducationProgram/AboutEducation_CFC.html",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'" 
+      "summary": "Developed an individual carbon credit assessment platform based on people's daily life.'" 
     },
     {
       "title": "National Third Prize of Mobile Application Innovation Competition of China Collegiate Computing Contest",
       "date": "Dec 2022",
       "awarder": "Computer Education Research Association of Chinese Universities, Zhejiang University, Apple (China)",
       "url": "http://www.appcontest.net/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "Enhanced the iOS app, Codesigner, with interactive new features to help programming beginners learn Swift and SwiftUI."
     },
     {
       "title": "Academic Excellence University Scholarship, 2020-2021 Academic Year",
@@ -108,7 +108,7 @@
       "date": "June 2021",
       "awarder": "Computer Education Research Association of Chinese Universities, Zhejiang University, Apple (China)",
       "url": "http://www.appcontest.net/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "Built an iOS app, Codesigner, as a tutorial to help programming beginners learn Swift and SwiftUI."
     },
     {
       "title": "Academic Excellence University Scholarship, 2019-2020 Academic Year",
