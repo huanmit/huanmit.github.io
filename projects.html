@@ -1,15 +1,15 @@
 ---
 layout: default
-title : Showcase
-navbar_title: Showcase
+title : Projects
+navbar_title: Projects
 container_class: container-xl
 ---
 
-{% assign showcase_items = site.showcase | where: "show", true %}
-{% if showcase_items.size > 0 %}
-    {% assign cards_by_group = showcase_items | sort: "date" | reverse | group_by_exp: "item", "item.group" %}
+{% assign projects = site.projects | where: "show", true %}
+{% if projects.size > 0 %}
+    {% assign projects_by_group = projects | sort: "date" | reverse | group_by_exp: "item", "item.group" %}
 
-    {% for group in cards_by_group %}
+    {% for group in projects_by_group %}
     <h1>{{ group.name }}</h1>
     <div class="row grid mb-4">
         <div class="grid-sizer col-1"></div>
@@ -34,7 +34,7 @@ container_class: container-xl
     {% endfor %}
 {% else %}
     <div class="alert alert-info" role="alert">
-        <h4 class="alert-heading">No Showcase Items Yet</h4>
-        <p>Showcase items will be displayed here once they are added.</p>
+        <h4 class="alert-heading">No Projects Yet</h4>
+        <p>Projects will be displayed here once they are added.</p>
     </div>
-{% endif %}
+{% endif %} 

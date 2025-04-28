@@ -57,6 +57,10 @@ If you run into **any** issues while using this template, or have suggestions fo
    ```bash
    bundle exec jekyll serve
    ```
+   Or run:
+   ```bash
+   bundle exec jekyll serve --livereload
+   ```
 
 5. Browse to the displayed URL to see the website.
 
