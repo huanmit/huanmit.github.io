@@ -67,3 +67,87 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+/* ===== Dark Mode Support ===== */
+@media (prefers-color-scheme: dark) {
+  body, .bg-light {
+    background-color: #181a1b !important;
+    color: #e8e6e3 !important;
+  }
+  .card, .bg-white {
+    background-color: #232627 !important;
+    color: #e8e6e3 !important;
+  }
+  .navbar, .navbar-light.bg-light {
+    background-color: #232627 !important;
+    color: #e8e6e3 !important;
+  }
+  .shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important;
+  }
+  a, .nav-link {
+    color: #56b7fc;
+  }
+  .border-gray {
+    border-color: #444!important;
+  }
+}
+body.dark-mode, body.dark-mode .bg-light {
+  background-color: #181a1b !important;
+  color: #e8e6e3 !important;
+}
+body.dark-mode .card, body.dark-mode .bg-white {
+  background-color: #232627 !important;
+  color: #e8e6e3 !important;
+}
+body.dark-mode .navbar, body.dark-mode .navbar-light.bg-light {
+  background-color: #232627 !important;
+  color: #e8e6e3 !important;
+}
+body.dark-mode .shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important;
+}
+body.dark-mode a, body.dark-mode .nav-link {
+  color: #56b7fc;
+}
+body.dark-mode .border-gray {
+  border-color: #444!important;
+}
+body.dark-mode .navbar .navbar-brand,
+body.dark-mode .navbar .nav-link {
+  color: #fff !important;
+}
+body.dark-mode .text-muted, body.dark-mode .h5.text-muted {
+  color: #c0c0c0 !important;
+}
+
+body.light-mode, body.light-mode .bg-light {
+  background-color: #fff !important;
+  color: #222 !important;
+}
+body.light-mode .card, body.light-mode .bg-white {
+  background-color: #fff !important;
+  color: #222 !important;
+}
+body.light-mode .navbar, body.light-mode .navbar-light.bg-light {
+  background-color: #fff !important;
+  color: #222 !important;
+}
+body.light-mode .shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+body.light-mode a, body.light-mode .nav-link {
+  color: #007bff;
+}
+body.light-mode .border-gray {
+  border-color: #dee2e6!important;
+}
+
+#darkModeToggle:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.h5.text-muted {
+  font-weight: 400 !important;
+}
+
