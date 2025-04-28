@@ -3,11 +3,21 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    font-size: 1.15rem;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  h6 {
+    font-size: 1.35rem;
+  }
 }
 
 .text-profile-position {
@@ -118,6 +128,9 @@ body.dark-mode .navbar .nav-link {
 }
 body.dark-mode .text-muted, body.dark-mode .h5.text-muted {
   color: #c0c0c0 !important;
+}
+body.dark-mode .text-body {
+  color: #fff !important;
 }
 
 body.light-mode, body.light-mode .bg-light {
