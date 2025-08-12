@@ -164,3 +164,41 @@ body.light-mode .border-gray {
   font-weight: 400 !important;
 }
 
+/* Profile card contact links styling */
+.profile-card .fas,
+.profile-card .fab {
+  color: #007bff !important; /* Bootstrap primary blue */
+}
+
+.profile-card .no-break {
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* Dark mode support for profile card icons */
+body.dark-mode .profile-card .fas,
+body.dark-mode .profile-card .fab {
+  color: #56b7fc !important; /* Dark mode blue */
+}
+
+/* Alternative approach: target icons directly in the main content area */
+.container-lg .card .fas,
+.container-lg .card .fab {
+  color: #007bff !important; /* Bootstrap primary blue */
+}
+
+.container-lg .card .no-break {
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* Dark mode support */
+body.dark-mode .container-lg .card .fas,
+body.dark-mode .container-lg .card .fab {
+  color: #56b7fc !important; /* Dark mode blue */
+}
+

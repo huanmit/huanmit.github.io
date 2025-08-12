@@ -1,6 +1,6 @@
-<div class="row">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
+    <div class="row">
+        <div class="col">
+            <div class="card border-0 shadow-sm bg-white profile-card">
             <div class="card-body p-5">
                 <div class="row">
                     <div class="col">
@@ -52,9 +52,9 @@
                 <div class="row">
                     <div class="col">
                         {% if site.data.profile.email %}
-                        <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | replace: '@', '[at]' | replace: '.', '[dot]' }}">
-                            <i class="fas fa-envelope"></i> Email
-                        </a>
+                        <span class="pr-3 no-break">
+                            <i class="fas fa-envelope"></i> {{ site.data.profile.email | replace: '@', '[at]' }}
+                        </span>
                         {% endif %}
 
                         {% if site.data.profile.gscholar %}
@@ -69,9 +69,7 @@
                         {% endif %}
                         
                         {% if site.data.profile.github %}
-                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
+                        <!-- GitHub link hidden -->
                         {% endif %}
 
                         {% if site.data.profile.wechat_qrcode %}
@@ -81,9 +79,7 @@
                         {% endif %}
 
                         {% if site.data.profile.twitter %}
-                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
-                            <i class="fab fa-twitter"></i> Twitter
-                        </a>
+                        <!-- Twitter link hidden -->
                         {% endif %}
 
                         {% if site.data.profile.linkedin %}
