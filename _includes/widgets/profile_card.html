@@ -67,6 +67,12 @@
                             <i class="fab fa-google-scholar"></i> Google Scholar
                         </a>
                         {% endif %}
+
+                        {% if site.data.profile.semantic_scholar %}
+                        <a class="pr-3 no-break" target="_blank" href="{{ site.data.profile.semantic_scholar }}">
+                            <i class="fas fa-graduation-cap"></i> Semantic Scholar
+                        </a>
+                        {% endif %}
                         
                         {% if site.data.profile.github %}
                         <!-- GitHub link hidden -->
