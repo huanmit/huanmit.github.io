@@ -1,12 +1,12 @@
 ---
 title:          "VeriCoder: Enhancing LLM-Based RTL Code Generation through Functional Correctness Validation"
-date:           2025-04-15 00:00:00 +0800
+date:           2025-06-15 00:00:00 +0800
 selected:       true
-pub:            "arXiv preprint"
+pub:            "NuerIPS 2025 Fourth Workshop on Deep Learning for Code"
 # pub_pre:        "arXiv:"
 # pub_post:       "2504.15659"
 # pub_pre:        "Submitted to "
-pub_post:       ' Under review.'
+# pub_post:       ' Under review.'
 pub_date:       "2025"
 
 abstract: >-
