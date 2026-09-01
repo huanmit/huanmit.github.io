@@ -1,6 +1,6 @@
 ---
 title: >-
-    I got 20+ citations 🎉
-date: 2025-09-30 10:00:00 -0800
+    I got 80+ citations 🎉
+date: 2026-07-01 10:00:00 -0800
 show: true
 ---
