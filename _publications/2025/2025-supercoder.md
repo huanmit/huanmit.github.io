@@ -10,7 +10,7 @@ pub:            "NeurIPS 2025 Fourth Workshop on Deep Learning for Code "
 pub_date:       "2025"
 
 abstract: >-
-  Early workshop version of our COLM 2026 paper: we train an LLM with PPO reinforcement learning to optimize assembly code, reaching a 1.47x speedup over gcc -O3 while outperforming 20 larger baseline models.
+  Early workshop version of our COLM 2026 paper: we introduce an 8,072-program benchmark and train an LLM with PPO reinforcement learning, rewarding both test-case correctness and speedup over gcc -O3, reaching a 1.47x speedup while outperforming 20 larger baseline models.
 
 authors:
   - Anjiang Wei

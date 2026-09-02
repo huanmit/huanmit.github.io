@@ -6,7 +6,7 @@ pub:            "COLM"
 pub_date:       "2026"
 
 abstract: >-
-  We show LLMs can act as superoptimizers for assembly code: on our new 8,072-program benchmark, a fine-tuned model beats industry-standard compilers with 95.0% correctness and a 1.46x average speedup.
+  We build the first large-scale benchmark for LLM-based assembly superoptimization (8,072 real-world programs), then fine-tune a model with reinforcement learning plus best-of-N sampling and iterative refinement — reaching 95.0% correctness and a 1.46x average speedup over gcc -O3.
 
 authors:
   - Anjiang Wei

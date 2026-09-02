@@ -10,7 +10,7 @@ pub:            "NuerIPS 2025 Fourth Workshop on Deep Learning for Code"
 pub_date:       "2025"
 
 abstract: >-
-  VeriCoder is a model for RTL code generation fine-tuned on 125,000+ examples validated by feedback-directed refinement, improving over prior work by up to 71.7% on VerilogEval.
+  We build a 125,000+ example RTL dataset via feedback-directed refinement — iteratively fixing designs and tests against simulation results, rather than relying on syntactic checks alone — then fine-tune a code model on it, improving over prior work by up to 71.7% on VerilogEval.
 cover: /assets/images/covers/vericoder.png
 authors:
   - Anjiang Wei

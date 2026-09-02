@@ -10,7 +10,7 @@ pub:            "EMNLP Main"
 pub_date:       "2025"
 
 abstract: >-
-  SATBench is a benchmark of 2,100 logic puzzles auto-generated from SAT formulas to test LLMs' search-based reasoning. Even the strongest model we tested, o4-mini, scores only 65.0% on hard puzzles, barely above chance.
+  SATBench automatically converts Boolean satisfiability formulas into natural-language logic puzzles, targeting the search-based reasoning prior benchmarks miss by focusing on rule-based inference. Even the strongest model we test, o4-mini, scores only 65.0% on hard puzzles, barely above chance.
 authors:
   - Anjiang Wei
   - Yuheng Wu
