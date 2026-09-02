@@ -10,8 +10,7 @@ pub:            "NeurIPS 2025 Fourth Workshop on Deep Learning for Code "
 pub_date:       "2025"
 
 abstract: >-
-  Large language models (LLMs) have demonstrated strong performance across a wide range of programming tasks, yet their potential for code optimization remains underexplored. This work investigates whether LLMs can optimize the performance of assembly code, where fine-grained control over execution enables improvements that are difficult to express in high-level languages. We present a reinforcement learning framework that trains LLMs using Proximal Policy Optimization (PPO), guided by a reward function that considers both functional correctness, validated through test cases, and execution performance relative to the industry-standard compiler gcc -O3. To support this study, we introduce a benchmark of 8,072 real-world programs. Our model, Qwen2.5-Coder-7B-PPO, achieves 96.0% test pass rates and an average speedup of 1.47x over the gcc -O3 baseline, outperforming all 
-  20 other models evaluated, including Claude-3.7-sonnet. These results indicate that reinforcement learning can unlock the potential of LLMs to serve as effective optimizers for assembly code performance.
+  Early workshop version of our COLM 2026 paper: we train an LLM with PPO reinforcement learning to optimize assembly code, reaching a 1.47x speedup over gcc -O3 while outperforming 20 larger baseline models.
 
 authors:
   - Anjiang Wei

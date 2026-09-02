@@ -10,7 +10,7 @@ pub:            "NuerIPS 2025 Fourth Workshop on Deep Learning for Code"
 pub_date:       "2025"
 
 abstract: >-
-  VeriCoder is a model for RTL (Register Transfer Level) code generation, fine-tuned on a novel dataset that is functionally validated via feedback-directed refinement. Unlike prior datasets that only ensure syntactic correctness, our dataset guarantees that each RTL design passes automatically generated unit tests aligned with its natural language specification. Our key contributions include: (1) a large-scale dataset of 125,000+ examples with simulation-passing RTL designs, (2) a feedback-driven construction methodology that iteratively refines designs and tests based on test results, (3) superior performance with up to +71.7% relative improvement on VerilogEval benchmarks, and (4) comprehensive resources including dataset, model weights, inference scripts, and training pipeline.
+  VeriCoder is a model for RTL code generation fine-tuned on 125,000+ examples validated by feedback-directed refinement, improving over prior work by up to 71.7% on VerilogEval.
 cover: /assets/images/covers/vericoder.png
 authors:
   - Anjiang Wei
