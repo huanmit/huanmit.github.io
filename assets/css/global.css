@@ -100,6 +100,9 @@ div.lazy {
   .border-gray {
     border-color: #444!important;
   }
+  .pub-cover-overlay {
+    background-color: rgba(35,38,39,0.9) !important;
+  }
 }
 body.dark-mode, body.dark-mode .bg-light {
   background-color: #181a1b !important;
@@ -132,6 +135,9 @@ body.dark-mode .text-muted, body.dark-mode .h5.text-muted {
 body.dark-mode .text-body {
   color: #fff !important;
 }
+body.dark-mode .pub-cover-overlay {
+  background-color: rgba(35,38,39,0.9) !important;
+}
 
 body.light-mode, body.light-mode .bg-light {
   background-color: #fff !important;
@@ -153,6 +159,13 @@ body.light-mode a, body.light-mode .nav-link {
 }
 body.light-mode .border-gray {
   border-color: #dee2e6!important;
+}
+body.light-mode .pub-cover-overlay {
+  background-color: rgba(255,255,255,0.9) !important;
+}
+
+.pub-cover-overlay {
+  background-color: rgba(255,255,255,0.9);
 }
 
 #darkModeToggle:focus {
