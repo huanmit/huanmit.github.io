@@ -100,8 +100,12 @@ div.lazy {
   .border-gray {
     border-color: #444!important;
   }
-  .pub-cover-overlay {
-    background-color: rgba(35,38,39,0.9) !important;
+  .navbar .navbar-brand, .navbar .nav-link {
+    color: #fff !important;
+  }
+  .navbar-toggler {
+    color: #fff !important;
+    border-color: rgba(255,255,255,.3) !important;
   }
 }
 body.dark-mode, body.dark-mode .bg-light {
@@ -129,14 +133,15 @@ body.dark-mode .navbar .navbar-brand,
 body.dark-mode .navbar .nav-link {
   color: #fff !important;
 }
+body.dark-mode .navbar-toggler {
+  color: #fff !important;
+  border-color: rgba(255,255,255,.3) !important;
+}
 body.dark-mode .text-muted, body.dark-mode .h5.text-muted {
   color: #c0c0c0 !important;
 }
 body.dark-mode .text-body {
   color: #fff !important;
-}
-body.dark-mode .pub-cover-overlay {
-  background-color: rgba(35,38,39,0.9) !important;
 }
 
 body.light-mode, body.light-mode .bg-light {
@@ -160,12 +165,13 @@ body.light-mode a, body.light-mode .nav-link {
 body.light-mode .border-gray {
   border-color: #dee2e6!important;
 }
-body.light-mode .pub-cover-overlay {
-  background-color: rgba(255,255,255,0.9) !important;
+body.light-mode .navbar .navbar-brand,
+body.light-mode .navbar .nav-link {
+  color: rgba(0,0,0,.9) !important;
 }
-
-.pub-cover-overlay {
-  background-color: rgba(255,255,255,0.9);
+body.light-mode .navbar-toggler {
+  color: rgba(0,0,0,.5) !important;
+  border-color: rgba(0,0,0,.1) !important;
 }
 
 #darkModeToggle:focus {
