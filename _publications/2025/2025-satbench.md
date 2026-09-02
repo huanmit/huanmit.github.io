@@ -24,4 +24,5 @@ authors:
 
 links:
   arXiv: https://arxiv.org/pdf/2505.14615
+  ACL Anthology: https://aclanthology.org/2025.emnlp-main.1716.pdf
 ---
