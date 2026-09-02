@@ -2,7 +2,7 @@
 title:          "SuperCoder: Assembly Program Superoptimization with Large Language Models"
 date:           2026-07-08 00:00:00 +0800
 selected:       true
-pub:            "COLM 2026"
+pub:            "COLM"
 pub_date:       "2026"
 
 abstract: >-
