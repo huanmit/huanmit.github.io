@@ -2,7 +2,7 @@
 title:          "VeriCoder: Enhancing LLM-Based RTL Code Generation through Functional Correctness Validation"
 date:           2025-06-15 00:00:00 +0800
 selected:       true
-pub:            "NuerIPS 2025 Fourth Workshop on Deep Learning for Code"
+pub:            "NeurIPS 2025 Fourth Workshop on Deep Learning for Code"
 # pub_pre:        "arXiv:"
 # pub_post:       "2504.15659"
 # pub_pre:        "Submitted to "
